@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+.idea/
+
+# macOS custom folder icon
+Icon
+Icon?
+
+# Project outputs
+results/
+rss/
+
+# Confidential (Banca d'Italia data-sharing agreement)
+data/Anticipazioni/
+data/Indicatori_anticipazioni_tesoreria.xlsx
+figures/Lime/*anticipazioni*
+figures/MDI/*anticipazioni*

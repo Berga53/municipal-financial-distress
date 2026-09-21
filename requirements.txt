@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+tensorflow
+torch
+torch-geometric
+geopandas
+openpyxl
+lime==0.2.0.1
