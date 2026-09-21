@@ -64,6 +64,14 @@ that filtered dataset, producing the results under `rss/`. This is a
 deliberate alternative run, not dead code — leave both the definition and
 the toggle cell in place.
 
+## Confidential data (Anticipazioni)
+
+`data/Anticipazioni/` (and anything derived from it, such as the anticipazioni
+LIME/MDI figures) is covered by a Banca d'Italia data-sharing agreement. It is
+gitignored and is **not** in this repository, so a fresh clone cannot run the
+anticipazioni experiments or rebuild `data/Anticipazioni/`. Ask Matteo for the
+folder and place it at `data/Anticipazioni/`. Never commit it or its derived outputs.
+
 ## Setup
 
 ```bash
